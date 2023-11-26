@@ -1,0 +1,79 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;900&family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+    background-color: #5e5e5e;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #338dba;
+    height: 65vh;
+    width: 22%;
+    border: 2px solid #414141;
+    border-radius: 13px;
+    box-shadow:  4px 10px 16px rgb(58, 64, 68);
+
+}
+input{
+    width: 96%;
+    height: 84px;
+    margin: 4px 8px 34px 6px;
+    margin-right: 8px;
+    border-radius: 6px;
+    border:  0 2px 2px solid #414141;
+    box-shadow:  2px 4px 2px rgb(58, 64, 68);
+    font-size: 25px;
+    background: linear-gradient(to top,#2b2a2a,#676767);
+    text-align: right;
+    cursor: pointer;
+    color: rgb(226,224,224);
+}
+input::placeholder{
+    color: rgb(152, 152, 152);
+}
+button{
+    position:static;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    color: rgb(24, 23, 22);
+    background: linear-gradient(to top,#70caf7 ,#b5e0f5);
+    border: 1px;
+    border-radius: 50%;
+    margin: 7px 9px;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  2px 8px 8px rgb(58, 64, 68);
+    transition: 0.5s;
+    cursor: pointer;
+}
+button:hover{
+    background: linear-gradient(to top,#507bf3 ,rgb(158, 212, 239));
+}
+.btn{
+    color: rgb(180, 28, 159);
+}
+.btn2{
+    background: rgb(232, 63, 213);
+}
+@media only screen and (max-width: 980px) {
+   .container{
+    width: 45%;
+    background-color: #ae62cc;
+   } 
+   input{
+    color: #c08fd3;
+   }
+   input::placeholder{
+    color: #ae62cc;
+}
+}
